@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cine Drycleaners</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="cine.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+  	</head>
+    <style>
+    *{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+p{
+	font-size:0.9rem;
+	line-height:1.6;
+	font-weight:400;
+	color:#606060;
+}
+/************************HEADER CSS START**********************************/
+.header{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(0,255,0,0.3),rgba(0,255,255,0.3)),url('back5.jpg');
+	clip-path:polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.header:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-5;
+	opacity:0.4;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.navbar:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-5;
+	opacity:0.4;
+}
+
+.nav-item a{
+	color:#fff!important;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-brand{
+	color:#fff!important;
+	font-weight:bold;
+	font-family: 'Dancing Script', cursive;
+	text-shadow:2px 2px 5px black;
+}
+.header-section{
+	width:100%;
+	height:inherit;
+	color:white;
+	text-align:center;
+	position:relative;
+}
+.center-div{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+}
+.header-buttons a{
+	border: 1px solid white;
+	border-radius:100px;
+	margin:0 5px;
+	padding:12px 35px;
+	outline:none;
+	color:#fff;
+	font-size:1.6 rem;
+	font-weight: 400;
+	line-height:1.4;
+	text-align:center;
+}
+.header-buttons a:hover{
+	color:#50d1c0;
+	background-color:#fff;
+	text-decoration:none;
+	box-shadow:0px 0px 20px 0px rgba(0,0,0,0.3);
+}
+.center-div p{
+	font-size:1.3rem;
+	color:white;
+}
+.header-buttons{
+	padding: 20px 0 2px 0;
+}
+/************************HEADER CSS END**********************************/
+
+/************************ABOUT CSS START*********************************/
+.about{
+	width:100%;
+	height:100vh;
+	padding:100px 50px 100px 50px;
+}
+hr{
+	color:#CCCCCC;
+}
+.about h1{ 
+	color:#fff;
+	text-shadow:2px 2px 5px #33CCCC;
+}
+.about p{
+	font-size:20px;
+}
+.papaimage{
+	display:flex;
+	width:30%;
+	padding:0;
+	text-align:center;
+	box-sizing:border-box;
+}
+.about-text{
+	box-sizing:border-box;
+	text-align:justify;
+	line-height:1.7;
+	display:flex;
+}
+/************************ABOUT CSS END**********************************/
+
+
+/************************SERVICES START**********************************/
+.services{
+	width:100%;
+	height:auto;
+	background:url('back5.jpg');
+	
+}
+
+.service-head{
+	color:#fff;
+	text-shadow:2px 2px 5px #33CCCC;
+	text-align:center;
+}
+.services .nav-item a{
+	color:#fff!important;
+}
+.nav-item .active{
+	color:#33CCCC;
+}
+.pickup{
+	margin:50px 0 50px 0;
+}
+.ordertrack{
+	margin:50px 0 50px 0;
+}
+.the_section{
+	margin:50px 0 50px 0;
+	padding-left:22%;
+	padding-bottom:50px;
+}
+				/***************services content css***************/
+				
+#ordertrack{
+
+}	
+#the_section{
+	
+}	
+#form{
+	
+}	
+/***********************SERVICES END**********************************/
+
+/***************CONTACT START**************************/
+
+.contact{
+	margin:50px 0 50px 0;
+}
+
+.contact h1{ 
+	margin-top:50px;
+	color:#fff;
+	text-shadow:2px 2px 5px #33CCCC;
+	text-align:center;
+}
+
+
+
+/***************CONTACT END**************************/
+
+/***************FOOTER START**************************/
+footer{
+	width:100%;
+	height:20vh;
+	display:flex;
+	margin:50px auto 0 auto;
+	padding:20px;
+	background:linear-gradient(rgba(0,255,0,0.3),rgba(0,255,255,0.3)),url('back5.jpg');
+}
+
+
+footer img{
+	border-radius:50%;
+}
+
+/***************FOOTER END**************************/
+    </style>
+	<body>
+				<!---------------HEADER SECTION START-------------------------->
+		<div class="header" id="topheader">
+			<nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+				<div class="container  p-2">
+			<a class="navbar-brand" href="#"><h1 class="font-weight-bold">Cine<span id="dry" class="animated infinite flash">Drycleaners</span></h1></span></a> 
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon "></span>
+					</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#aboutus">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Services</a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact Us</a>
+						</li>  
+					</ul>
+				</div>
+				</div>
+			</nav>
+			<section class="header-section">
+				<div class="center-div">
+										<p>A Tradition of Right quality </p>
+					<h3>Since 1985</h3>
+					<div class="header-buttons">
+						<a href="#Track-your-Order">Order  Tracking </a>
+						<a href="#Schedule-a-pickup">Schedule pickup</a>
+					</div>
+				</div>
+			</section>
+		</div>
+				<!---------------HEADER SECTION END-------------------------->
+				
+				<!---------------ABOUT US SECTION START-------------------------->
+		<div class="about" id="aboutus">
+			<h1 class="text-center font-weight-bold ">ABOUT US</h1>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-12 papaimage">
+						<img src="papaimage.jpg">
+					</div>
+					<div class="col-lg-8 col-md-8 col-12 about-text">
+						<p>	
+						Cine Drycleaners offers quality laundering and dry cleaning service to both individuals and corporations in the Power City of Chhattisgarh and Korba Sub-urban areas. With more than 25 years experience in the business, you can count on quality and superior service from us.
+					<br/>
+						We specialize in the following commercial industries Hospitality industries Health care facilities Uniform service industries Commercial offices Small businesses. With our special services for corporate clients, you get more than just quality cleaning.	
+						</p>
+					</div>
+				</div>
+			</div>
+			<hr>
+		</div>
+	<!---------------ABOUT US SECTION END-------------------------->
+	
+	
+	<!---------------SERVICES START-------------------------->
+	<div class="services">
+	<div class="container">
+	  <h1 class="text-center font-weight-bold ">SERVICES</h1><hr><br>
+	  <!-- Nav tabs -->
+	  <ul class="nav nav-tabs" role="tablist">
+		<li class="nav-item">
+		  <a class="nav-link active" data-toggle="tab" href="#Schedule-a-pickup">Schedule a pickup</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" data-toggle="tab" href="#Track-your-Order">Track your Order</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" data-toggle="tab" href="#Service-Area">Service Area</a>
+		</li>
+	  </ul>
+
+	  <!-- Tab panes -->
+	  <div class="tab-content">
+		<div id="Schedule-a-pickup" class="container tab-pane active"><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-10 col-lg-2 offset-md-2 offset-1">
+					<form action="pick.php" method="post">
+						<div class="form-group">
+							<label for="sel1">Area </label>
+							<select class="form-control" id="sel1" name="area">
+								<option value="Korba">Korba</option>
+								<option value="Gevra">Gevra</option>
+								<option value="Niharika">Niharika</option>
+							</select>
+						</div> 
+						<div class="form-group">
+								<label for="pick_name">Name</label>
+								<input type="text" class="form-control" placeholder="" id="pick_name" name="name" required autocomplete="off">
+						</div>
+						<div class="form-group">
+								<label for="pick_mobile">Mobile</label>
+								<input type="text" class="form-control" placeholder="" id="pick_mobile" name="mob" required autocomplete="off">
+						</div>	
+						<div class="form-group">
+								<label for="pick_email">Email</label>
+								<input type="email" class="form-control" placeholder="" id="pick_email" name="email" required autocomplete="off">
+						</div>
+						<div class="form-group">
+								<label for="pick_address">Address</label>
+								<input type="text" class="form-control" placeholder="" id="pick_address" name="add" required autocomplete="off">
+						</div>
+						<div class="form-group">
+								<label for="pick_garments">Number of Garments to be cleaned</label>
+								<input type="text" class="form-control" placeholder="" id="pick_garments" name="gar" required autocomplete="off">
+						</div>						
+						<div class="form-group">
+								<label for="pick_date">Date to schedule a pickup</label>
+								<input type="date" class="form-control" placeholder="" id="pick_date" name="date" required autocomplete="off">
+						</div>						
+						<div class="form-group">
+							<label for="sel1">Time slot</label>
+							<select class="form-control" id="sel1 " name="slot">
+								<option value="slot1">11a.m.-2p.m.</option>
+												<option value="slot2">2p.m.-5p.m.</option>
+							</select>
+						</div> 
+						<div class="form-group">
+								<label for="pick_know">How did you know about us</label>
+								<input type="text" class="form-control" placeholder="" id="pick_know" name="know" required autocomplete="off">
+						</div>						
+						<div class="form-group">
+							<label for="pick_comments">Comments</label>
+							<input type="text" class="form-control" placeholder="" id="pick_comments" name="comm" required autocomplete="off">
+						</div>						
+						<div class="d-flex justify-content-around form-button">								  
+							<button type="submit" class="btn btn-primary" name="sub">Submit</button>
+						</div>						 
+					</form>
+					</div>
+				</div>	
+			</div>						
+		</div>
+		<div id="Track-your-Order" class="container tab-pane fade"><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-10 col-lg-2 offset-md-2 offset-1">
+						<form action="track.php" method="post" id="ordertrack"><br/>
+							<div class="form-group">
+								<label for="pick_comments">pickup ID</label>
+								<input type="pick_id" class="form-control" placeholder=""  name="pick_id" required autocomplete="off">
+							</div>						
+							<div class="d-flex justify-content-around form-button">								  
+								<button type="submit" class="btn btn-primary" name="sub">Submit</button>
+							</div>		
+						</form>
+					</div>
+				</div>				
+			</div>					
+		</div>
+		<div id="Service-Area" class="container tab-pane fade"><br>
+		  <section id="the_section">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.081808019096!2d82.69760260910608!3d22.350539680503747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a278f2fb00d6f4d%3A0x798a92ab482b5dda!2sCine%20Dry-Cleaners!5e0!3m2!1sen!2sin!4v1587486280537!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								</section>
+		</div>
+	  </div>
+	</div>
+	</div>
+
+		<!---------------SERVICES END-------------------------->
+		
+		<!---------------	contact starts-------------------------->
+	<div class="contact">
+		<div class="container">
+		<h1 class="text-center font-weight-bold ">CONTACT US</h1><hr><br>
+		</hr>
+			<div class="row">
+                <div class="col-lg-3 col-md-3 col-0"></div>
+				
+				<div class="col-lg-6 col-md-6 col-12">
+				<form action="action_page.php">
+					<div class="form-group">
+						<label for="">Name</label>
+						<input type="text" class="form-control" placeholder="" name="name" required autocomplete="off">
+					</div>
+					<div class="form-group">
+						<label for="">Mobile</label>
+						<input type="text" class="form-control" placeholder="" maxlength="10" name="mob" required autocomplete="off">
+					</div>
+					<div class="form-group">
+								<label for="">Query</label>
+								  <textarea class="form-control" placeholder="" name="que" rows="4" id=""></textarea>
+								</div> 
+					<div class="d-flex justify-content-around form-button">								  
+						<button type="submit" class="btn btn-primary"  name="submit" id="sub">Submit</button>
+					</div>
+					</form>
+                </div><br/>
+                <div class="col-lg-3 col-md-3 col-0"></div>
+			</div>
+		</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-0"></div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div id="det"> 
+                        
+                            
+                <img src="https://img.icons8.com/color/48/000000/whatsapp.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/instagram-new.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/google-plus-squared.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-0"></div>
+        </div>
+    </div>
+	<!---------------	contact END-------------------------->
+	
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</body>
+</html>		
