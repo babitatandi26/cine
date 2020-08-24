@@ -1,0 +1,216 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+p{
+	font-size:0.9rem;
+	line-height:1.6;
+	font-weight:400;
+	color:#606060;
+}
+/************************HEADER CSS START**********************************/
+.header{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(0,255,0,0.3),rgba(0,255,255,0.3)),url('back5.jpg');
+	clip-path:polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.header:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-5;
+	opacity:0.4;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.navbar:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-5;
+	opacity:0.4;
+}
+
+.nav-item a{
+	color:#fff!important;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-brand{
+	color:#fff!important;
+	font-weight:bold;
+	font-family: 'Dancing Script', cursive;
+	text-shadow:2px 2px 5px black;
+}
+.header-section{
+	width:100%;
+	height:inherit;
+	color:white;
+	text-align:center;
+	position:relative;
+}
+.center-div{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+}
+.header-buttons a{
+	border: 1px solid white;
+	border-radius:100px;
+	margin:0 5px;
+	padding:12px 35px;
+	outline:none;
+	color:#fff;
+	font-size:1.6 rem;
+	font-weight: 400;
+	line-height:1.4;
+	text-align:center;
+}
+.header-buttons a:hover{
+	color:#50d1c0;
+	background-color:#fff;
+	text-decoration:none;
+	box-shadow:0px 0px 20px 0px rgba(0,0,0,0.3);
+}
+.center-div p{
+	font-size:1.3rem;
+	color:white;
+}
+.header-buttons{
+	padding: 20px 0 2px 0;
+}
+/************************HEADER CSS END**********************************/
+
+/************************ABOUT CSS START*********************************/
+.about{
+	width:100%;
+	height:100vh;
+	padding:100px 50px 100px 50px;
+}
+hr{
+	color:#CCCCCC;
+}
+.about h1{ 
+	color:#fff;
+	text-shadow:2px 2px 5px #33CCCC;
+}
+.about p{
+	font-size:20px;
+}
+.papaimage{
+	display:flex;
+	width:30%;
+	padding:0;
+	text-align:center;
+	box-sizing:border-box;
+}
+.about-text{
+	box-sizing:border-box;
+	text-align:justify;
+	line-height:1.7;
+	display:flex;
+}
+/************************ABOUT CSS END**********************************/
+
+
+/************************SERVICES START**********************************/
+.services{
+	width:100%;
+	height:auto;
+	background:url('back5.jpg');
+	
+}
+
+.service-head{
+	color:#fff;
+	text-shadow:2px 2px 5px #33CCCC;
+	text-align:center;
+}
+.services .nav-item a{
+	color:#fff!important;
+}
+.nav-item .active{
+	color:#33CCCC;
+}
+.pickup{
+	margin:50px 0 50px 0;
+}
+.ordertrack{
+	margin:50px 0 50px 0;
+}
+.the_section{
+	margin:50px 0 50px 0;
+	padding-left:22%;
+	padding-bottom:50px;
+}
+				/***************services content css***************/
+				
+#ordertrack{
+
+}	
+#the_section{
+	
+}	
+#form{
+	
+}	
+/***********************SERVICES END**********************************/
+
+/***************CONTACT START**************************/
+
+.contact{
+	margin:50px 0 50px 0;
+}
+
+.contact h1{ 
+	margin-top:50px;
+	color:#fff;
+	text-shadow:2px 2px 5px #33CCCC;
+	text-align:center;
+}
+
+
+
+/***************CONTACT END**************************/
+
+/***************FOOTER START**************************/
+footer{
+	width:100%;
+	height:20vh;
+	display:flex;
+	margin:50px auto 0 auto;
+	padding:20px;
+	background:linear-gradient(rgba(0,255,0,0.3),rgba(0,255,255,0.3)),url('back5.jpg');
+}
+
+
+footer img{
+	border-radius:50%;
+}
+
+/***************FOOTER END**************************/
